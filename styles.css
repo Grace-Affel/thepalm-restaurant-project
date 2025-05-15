@@ -1,0 +1,215 @@
+ * {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+body {
+   border: rgb(253, 222, 184);
+}
+
+ nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 5rem;
+    color: chocolate;
+    background-color: whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+ }
+ #logo{
+color: chocolate;
+font-size: 30px;
+font-weight: bold;
+
+ }
+
+ nav ul {
+    list-style-type: none;
+    display: flex;
+    column-gap: 3rem;
+    flex-direction: row;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 20px;
+    color: chocolate;
+ }
+
+ nav ul li:hover {
+    cursor: pointer;
+    color: black;
+    background-color: burlywood;
+
+ }
+
+ nav button {
+    background-color: chocolate;
+    color: whitesmoke;
+    border: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+
+ }
+
+ nav button:hover {
+    background-color: bisque;
+    color: rgb(168, 109, 109);
+    font-style: italic;
+ }
+
+ #hero {
+    background-image: url(./assets/breakfast-3930458_1920.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+ .overlay {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.555);
+    color: rgb(253, 253, 252);
+    font-size: 20px;
+    row-gap: 20px;
+ }
+
+ #hero h1 {
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ #hero p {
+    text-align: center; }
+
+ .primary-button {
+    background-color: chocolate;
+    color: whitesmoke;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+ }
+
+ .primary-button:hover {
+    background-color: bisque;
+    color: rgb(168, 109, 109);
+    font-style: italic;
+ }
+
+ #search {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 2rem;
+    margin-top: -8rem;
+
+ }
+
+ #search-box {
+    display: grid;
+    background-color: white;
+    box-shadow: 5px 5px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+ }
+
+ #search-box span {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    column-gap: 5px;
+ }
+
+ #search-title span {
+    padding: 1.5rem;
+    background-color: chocolate;
+    color:whitesmoke;
+    font-size: 15px;
+    font-weight: bold;
+ }
+
+ #search-title span:nth-child(2) {
+    background-color: white;
+    color: chocolate;
+ }
+
+ .overlay p {
+    width: 80%;
+ }
+
+ #search-box div {
+    padding: 2rem;
+    border-right: 1px solid #BFBFBF;
+ }
+
+ #search-box p {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 0.2rem;
+    color: chocolate;
+ }
+
+ #search-box i {
+    color: #E6E6E6;
+ }
+
+ #search-box input {
+    border: none;
+ }
+
+ #search-box input::placeholder {
+    color: #BFBFBF;
+ }
+
+ #search-box button {
+    background-color: chocolate;
+    color: whitesmoke;
+    border: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+ }
+ #search-box button:hover {
+   background-color: bisque;
+    color: rgb(168, 109, 109);
+    font-style: italic;
+ }
+
+ .cat {
+    display: flex;
+    height: 100px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+    margin-top: 10rem;
+ }
+
+
+ .cat h1 {
+   font-size: 50px;
+ }
+
+ .cat h3 {
+   color:chocolate;
+ }
+ 
+ .icons {
+   display: flex;
+   flex-direction: row;
+   height:100px;
+   align-items: center;
+   justify-content: center;
+   grid-row-gap: 20px;
+   font-size: 50px;
+   margin-top: 100px;
+
+ }
